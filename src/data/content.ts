@@ -154,28 +154,28 @@ export const pricingPlans: PricingPlan[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'Amelia Hart',
+    name: 'Syed Zain Abbas',
     role: 'Head of Operations',
-    company: 'Northwind Retail',
-    avatar: 'AH',
+    company: 'Acme Logistics',
+    avatar: 'SZ',
     quote:
       'NovaSaaS took over our order-to-fulfilment handoffs in a single afternoon. What used to take three people most of the morning now runs itself before we even open the office.',
     rating: 5,
   },
   {
-    name: 'Daniel Cho',
+    name: 'Ali Ahmad',
     role: 'Engineering Manager',
-    company: 'Brightline Labs',
-    avatar: 'DC',
+    company: 'Brightpath Labs',
+    avatar: 'AA',
     quote:
       'We tried two other automation tools before this one. The visual builder is the first one our whole team actually understood without a training session.',
     rating: 5,
   },
   {
-    name: 'Priya Nair',
+    name: 'Sarfraz Saeed',
     role: 'Founder',
-    company: 'Studio Loom',
-    avatar: 'PN',
+    company: 'Studio Nine',
+    avatar: 'SS',
     quote:
       'As a five-person studio, NovaSaaS basically gave us an extra teammate. Client onboarding, invoicing reminders, and reporting all run on autopilot now.',
     rating: 5,
@@ -240,4 +240,3 @@ export const footerLinks = {
     { label: 'Security', href: '#' },
   ],
 }
-
