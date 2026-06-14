@@ -51,6 +51,7 @@ export interface ButtonProps {
   variant?: ButtonVariant
   size?: ButtonSize
   children: ReactNode
+  onClick?: () => void
   href?: string
   disabled?: boolean
   className?: string
@@ -61,11 +62,13 @@ export type AnimationDirection = 'up' | 'left' | 'right'
 
 export interface AnimatedSectionProps {
   children: ReactNode
+  delay?: number
   direction?: AnimationDirection
   className?: string
 }
 
 export interface BadgeProps {
   children: ReactNode
+  variant?: 'blue' | 'green' | 'purple' | 'amber'
   className?: string
 }
